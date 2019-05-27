@@ -93,6 +93,7 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := en
 TW_NO_SCREEN_BLANK := true
+TW_SCREEN_BLANK_ON_BOOT := true
 TW_NO_BATT_PERCENT := true
 TW_REBOOT_RECOVERY := true
 RECOVERY_SDCARD_ON_DATA := true
@@ -104,4 +105,3 @@ TW_HAS_MTP := true
 TW_MTP_DEVICE := /dev/mtp_usb
 TARGET_RECOVERY_FSTAB := device/lenovo/manning/recovery/root/etc/recovery.fstab
 LZMA_RAMDISK_TARGETS := recovery
-

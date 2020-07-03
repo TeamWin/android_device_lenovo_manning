@@ -20,10 +20,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Ramdisk
-PRODUCT_PACKAGES += \
-    device/lenovo/manning/recovery/root/init.recovery.mt6797.rc:recovery/root/init.recovery.mt6797.rc
-
 # Release name
 PRODUCT_RELEASE_NAME := Lenovo K8 Note
 
@@ -31,6 +27,6 @@ PRODUCT_DEVICE			:= manning
 PRODUCT_NAME			:= omni_manning
 PRODUCT_BRAND			:= lenovo
 PRODUCT_MODEL			:= Lenovo K8 Note
-PRODUCT_MANUFACTURER	:= lenovo
+PRODUCT_MANUFACTURER		:= lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=manning_retail

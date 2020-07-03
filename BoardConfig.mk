@@ -102,6 +102,6 @@ TW_HAVE_SELINUX := true
 TW_DEFAULT_LANGUAGE := en
 TW_HAS_MTP := true
 TW_MTP_DEVICE := /dev/mtp_usb
-TARGET_RECOVERY_FSTAB := device/lenovo/manning/recovery/root/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/lenovo/manning/recovery.fstab
 LZMA_RAMDISK_TARGETS := recovery
 

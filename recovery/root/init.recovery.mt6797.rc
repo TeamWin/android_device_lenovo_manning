@@ -15,3 +15,5 @@ on post-fs-data
     symlink /dev/block/mmcblk0boot0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/preloader_a
     symlink /dev/block/mmcblk0boot1 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/preloader_b
 
+service fuelgauged /sbin/fuelgauged_static
+	seclabel u:r:recovery:s0

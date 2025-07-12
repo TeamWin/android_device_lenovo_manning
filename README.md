@@ -24,7 +24,9 @@ Front Camera | 13MP
 
 This device tree can be used to build TWRP for Lenovo K8 Note
 
-Clone Kernel Source from here https://github.com/Maanush2004/android_kernel_lenovo_manning Use twrp branch
+It uses a kernel with custom config that is already build from source
+
+If you want to compile kernel manually, clone https://github.com/Maanush2004/android_kernel_lenovo_manning Use twrp branch
 on top of build directory use this command to clone it
 
 git clone https://github.com/Maanush2004/android_kernel_lenovo_manning -b twrp kernel/lenovo/manning

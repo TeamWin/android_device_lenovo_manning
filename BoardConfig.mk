@@ -57,9 +57,11 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Kernel
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_SOURCE := kernel/lenovo/manning
-TARGET_KERNEL_CONFIG := manning_defconfig
+TARGET_PREBUILT_KERNEL = device/lenovo/manning/Image.gz-dtb
+# Comment the above and uncomment the below if you want to compile kernel instead of using the prebuilt one
+# BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+# TARGET_KERNEL_SOURCE := kernel/lenovo/manning
+# TARGET_KERNEL_CONFIG := manning_defconfig
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x04f88000
